@@ -64,6 +64,27 @@ body {
 
 .parametro-senha_texto{
     padding: 10px;
-    border-top: 2px solid var(--fonte-titulo);
-    
+    border-top: 2px solid var(--rosa);
+    border-bottom: 2px solid var(--rosa);
+    background-color: var(--ouro);
+    margin: 0;
+}
+
+.parametro-titulo{
+    font-family: var(--fonte-titulo);
+    margin: 50px;
+    color: var(--ouro);
+    font-size: 50px;
+}
+
+.parametro-senha-titulo{
+    font-family: var(--fonte-titulo);
+    margin: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+}
+
+.parametro{
+    display: flex;
 }
