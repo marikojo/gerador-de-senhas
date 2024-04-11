@@ -58,4 +58,12 @@ body {
 .parametro-senha_botao{
     background-color: var(--ouro);
     border-top: 2px solid var(--rosa);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.parametro-senha_texto{
+    padding: 10px;
+    border-top: 2px solid var(--fonte-titulo);
+    
 }
