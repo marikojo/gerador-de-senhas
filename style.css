@@ -120,7 +120,7 @@ label {
     background-color: red;
 }
 
-.parametro-senha_texto {
+.parametro-senha-textos {
     display: flex;
     justify-content: space-between;
 }
