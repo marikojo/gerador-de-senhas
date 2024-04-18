@@ -69,7 +69,6 @@ body {
     background-color: var(--ouro);
     margin: 0;
 }
-
 .parametro-titulo{
     font-family: var(--fonte-titulo);
     margin: 50px;
@@ -87,4 +86,56 @@ body {
 
 .parametro{
     display: flex;
+}
+
+.parametro{
+    border: 2px solid var(--ouro);
+    border-radius: 50px;
+    margin: 50px;
+    padding: 10px;
+}
+
+label{
+    font-size: 25px;
+    font-family: var(--fonte-titulo);
+    font-size: 25px;
+    color: var(--verde);
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.barra{
+    background-color: var(--azul-claro);
+    height: 30px;
+    width: 100%;
+}
+
+.fraca{
+    width: 25%;
+    background-color: red;
+}
+
+.parametro-senha_texto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.media{
+    background-color: yellow;
+    width: 50%;
+}
+
+.forte{
+    background-color: green;
+    width: 100%;
+}
+
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
 }
