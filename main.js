@@ -38,7 +38,7 @@ for (i = 0; i < checkbox.length; i++) {
 geraSenha()
 
 function geraSenha() {
-    let alfabeto = '';
+    let alfabeto = '';1 dia para descobrir essa senha
     if (checkbox[0].checked) {
         alfabeto = alfabeto + letrasMaiusculas;
     }
