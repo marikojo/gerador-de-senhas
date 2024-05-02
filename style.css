@@ -55,14 +55,14 @@ body {
 
 @media screen and (min-width:768px) {}
 
-.parametro-senha_botao {
+.parametro-senha__botao {
     background-color: var(--ouro);
     border: 2px solid var(--rosa);
     padding: 10px;
     cursor: pointer;
 }
 
-.parametro-senha_texto {
+.parametro-senha__texto {
     padding: 10px;
     border-top: 2px solid var(--rosa);
     border-bottom: 2px solid var(--rosa);
