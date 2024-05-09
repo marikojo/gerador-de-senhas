@@ -7,7 +7,7 @@ body {
     --rosa: rgb(253, 131, 192);
     --ouro: rgb(245, 205, 235);
     --cinza: #f5b0b0;
-    --verde: rgb(250, 247, 201);
+    --verde: rgba(250, 247, 201, 0);
     --azul-claro: rgb(196, 108, 162);
 }
 
