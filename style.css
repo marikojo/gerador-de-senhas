@@ -126,12 +126,12 @@ label {
 }
 
 .media {
-    background-color: yellow;
+    background-color: rgb(0, 0, 0);
     width: 50%;
 }
 
 .forte {
-    background-color: green;
+    background-color: rgb(98, 255, 182);
     width: 100%;
 }
 
