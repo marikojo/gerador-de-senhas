@@ -38,7 +38,7 @@ for (i = 0; i < checkbox.length; i++) {
 geraSenha()
 
 function geraSenha() {
-    let alfabeto = '';1 dia para descobrir essa senha
+    let alfabeto = '';
     if (checkbox[0].checked) {
         alfabeto = alfabeto + letrasMaiusculas;
     }
@@ -61,7 +61,7 @@ function geraSenha() {
         senha = senha + alfabeto[numeroAleatorio];
     }
     campoSenha.value = senha;
-    classificaSenha(alfabeto.length);
+    cldevassificaSenha(alfabeto.length);
 }
 
 function classificaSenha(tamanhoAlfabeto) {
