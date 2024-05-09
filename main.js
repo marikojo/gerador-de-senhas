@@ -61,7 +61,7 @@ function geraSenha() {
         senha = senha + alfabeto[numeroAleatorio];
     }
     campoSenha.value = senha;
-    cldevassificaSenha(alfabeto.length);
+    classificaSenha(alfabeto.length);
 }
 
 function classificaSenha(tamanhoAlfabeto) {
